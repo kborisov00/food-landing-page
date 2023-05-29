@@ -22,18 +22,18 @@ const Header = () => {
 
       <ul className="flex gap-8">
         <li className="font-bold text-black cursor-default">Home</li>
-        <li className="font-semibold text-[#808080] cursor-pointer">
+        <li className="font-semibold text-[#808080] cursor-pointer hover:text-gray-400 transition-colors">
           Why Food?
         </li>
-        <li className="font-semibold text-[#808080] cursor-pointer">Menu</li>
-        <li className="font-semibold text-[#808080] cursor-pointer">
+        <li className="font-semibold text-[#808080] cursor-pointer hover:text-gray-400 transition-colors">Menu</li>
+        <li className="font-semibold text-[#808080] cursor-pointer hover:text-gray-400 transition-colors">
           Location
         </li>
       </ul>
 
       <div className="flex gap-4">
-        <FaSistrix className="text-xl text-[#808080] cursor-pointer" />
-        <FaBars className="text-xl text-[#808080] cursor-pointer" />
+        <FaSistrix className="text-xl text-[#808080] cursor-pointer hover:text-gray-400 transition-colors" />
+        <FaBars className="text-xl text-[#808080] cursor-pointer hover:text-gray-400 transition-colors" />
       </div>
     </header>
   );
